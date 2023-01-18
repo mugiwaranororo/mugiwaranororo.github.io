@@ -17,11 +17,29 @@ input, button, textarea, select { font: inherit }
 @media (max-width: 767px) { body { padding: 12% 8% } }
 
 section {
-    margin-bottom: 48px;
+    background-color: #49409e;
+    padding: 5% 5% 5% 5%;
 }
 
-body { 
+.section-1 {
     background-color: #49409e;
+}
+
+.section-1 h2 {
+    color: rgb(184, 21, 21);
+}
+
+.section-2 {
+    background-color: #bfc41e;
+}
+
+.section-3 {
+    background-color: #c2bdf1;
+}
+
+
+body { 
+    background-color: beige;
     text-align: center;
     font-family: sans-serif;
 }
