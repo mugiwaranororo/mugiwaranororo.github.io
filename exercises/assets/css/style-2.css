@@ -13,8 +13,11 @@ input, button, textarea, select { font: inherit }
 /* ============ CUSTOM PROPERTIES ============  */
 
 :root {
-    
-    
+    /* Nicer than default sans-serif font */
+    --font-sans: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Fira Sans, Ubuntu, Oxygen, Oxygen Sans, Cantarell, Droid Sans, Apple Color Emoji, Segoe UI Emoji, Segoe UI Emoji, Segoe UI Symbol, Lucida Grande, Helvetica, Arial, sans-serif;
+    --font-serif: Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif;
+    --font-monospace: Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --global-font: var(--font-sans);
 
     /* Color variables */
     --black-000: #000000;
@@ -247,43 +250,31 @@ input, button, textarea, select { font: inherit }
 
 
 
-/* Desktops / Laptops */
-@media (min-width: 1025px) { 
-    section { padding: 5% 4% }
-    section.w-800px {max-width: 800px;margin-left: auto;margin-right: auto;}
-    section.w-1024px {max-width: 1024px;margin-left: auto;margin-right: auto;}
-    section.w-1140px {max-width: 1140px;margin-left: auto;margin-right: auto;}
-    section.w-1536px {max-width: 1536px;margin-left: auto;margin-right: auto;}
-
-}
+/* Desktops */
+@media (min-width: 768px) { section { padding: 4% 20% } }
 	
 /* Mobiles */
-@media (max-width: 767px) { section { padding: 32px 9% 40px 9% } }
+@media (max-width: 767px) { section { padding: 12% 8% } }
 
 .section-1 {
-background-color: violet;}
+    background-image: linear-gradient(-90deg, #bfc41e, #c2bdf1);
+}
 
 .section-1 h2 {
     color: rgb(184, 21, 21);
 }
 
 .section-2 {
-background-color: var(--red-700);}
-
-.section-3 {
-background-color: yellowgreen;}
-
-.section-4 {
-    background-color: var(--blue-500);
+    background-image: linear-gradient(-90deg, #bfc41e, #c2bdf1);
 }
 
-.section-5 {
-    background-color: var(--amber-400);
+.section-3 {
+    background-image: linear-gradient(-90deg, #bfc41e, #c2bdf1);
 }
 
 
 body { 
-    background-color: #0000fe;
+    background-color: beige;
     text-align: center;
     font-family: sans-serif;
 }
@@ -315,13 +306,4 @@ p {
     font-size: 20px;
     margin-bottom: 16px;
 }
-
-/* UTILITY SECTION */
-@media (min-width: 1025px) { 
-    .text-center-desktop { text-align: center; }
-}
-@media (max-width: 767px) { 
-    .text-center-mobile { text-align: center; }
-}
-
 
