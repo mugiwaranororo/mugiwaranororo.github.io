@@ -1,0 +1,31 @@
+/* Add your custom CSS here */
+
+section {
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.section-1 {
+    color: green;
+    background-color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.section-2 {
+    color: red;
+    background-color: antiquewhite;
+    font-family: 'baskerville old face', 'book antiqua', palatino, serif;
+}
+
+.section-3 {
+    color: blue;
+    background-color: azure;
+    font-family: 'arial black', 'avant garde', sans-serif;
+}
+
+.section-4 {
+    color: purple;
+    background-color: beige;
+    font-family: 'arial narrow', arial, sans-serif;
+}
