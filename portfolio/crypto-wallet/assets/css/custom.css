@@ -1,31 +1,19 @@
 /* Add your custom CSS here */
+body { font-family: 'Outfit', 'sans-serif';}
 
-section {
-    text-align: center;
-    margin: 0 auto;
-    padding: 0 20px;
-}
+.section-selector-1 { background-color: var(--trend-700) }
+.section-selector-1 { color: var(--white-000) }
+.section-selector-1 > .badge span { background-color: var(--trend-700) }
+.section-selector-1 > .badge span {text-transform: uppercase;}
 
-.section-1 {
-    color: green;
-    background-color: aliceblue;
-    font-family: 'Courier New', Courier, monospace;
-}
+.section-selector-2 { background-color: var(--trend-800) ; color:var(--white-000) ; }
 
-.section-2 {
-    color: red;
-    background-color: antiquewhite;
-    font-family: 'baskerville old face', 'book antiqua', palatino, serif;
-}
+.section-selector-3 { background-color: var(--trend-700) ; color:var(--white-000) ; }
 
-.section-3 {
-    color: blue;
-    background-color: azure;
-    font-family: 'arial black', 'avant garde', sans-serif;
-}
+.section-selector-4 { background-color: var(--trend-700); color: var(--white-000); }
+.fa-solid { color: var(--blue-300) }
+.fa-brands { color: var(--blue-300) }
+.section-selector-1 h2, .section-selector-2 h2, .section-selector-3 h2, .section-selector-4 h2 { font-weight: 400;}
 
-.section-4 {
-    color: purple;
-    background-color: beige;
-    font-family: 'arial narrow', arial, sans-serif;
-}
+
+
