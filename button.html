@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Counter</title>
+</head>
+<main>
+    <div class="container">
+        <div class="counter">
+            <div class="counter__number">
+                <span class="counter__number--value" id="counter">0</span>
+            </div>
+            <div class="counter__buttons">
+                <button class="counter__buttons--btn" id="decrease">Decrease</button>
+                <button class="counter__buttons--btn" id="reset">Reset</button>
+                <button class="counter__buttons--btn" id="increase">Increase</button>
+            </div>
+        </div>
+    </div>
+
+    bigBtn.adEventListener('click', (evt) => {
+        console.log('Capture phase: click on big button');
+        evt.stopPropagation();
+    });
+</main>
+</html>
