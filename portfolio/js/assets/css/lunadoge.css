@@ -2175,7 +2175,6 @@ footer p.privacy a:hover, footer p.privacy a:active {
     display: flex;
     justify-content: space-between;
     padding: 0 6% 0 0;
-    background-color: var(--gray-300);
 }
 
 /* Website logo */
@@ -2187,7 +2186,7 @@ footer p.privacy a:hover, footer p.privacy a:active {
     background-color: transparent;
 }
 
-.container-menu a:first-child img { width: 200px; height: 40px; outline: 0 }
+.container-menu a:first-child img { width: 200px; height: 40px; outline: 0; margin-left: -600px; }
 
 .container-menu a:first-child { background-color: transparent }
 
