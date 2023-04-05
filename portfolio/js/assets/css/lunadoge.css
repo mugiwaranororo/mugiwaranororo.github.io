@@ -2183,10 +2183,11 @@ footer p.privacy a:hover, footer p.privacy a:active {
     flex-direction: row; 
     align-items: center;
     margin-left: 6%;
+    margin-top: 20px;
     background-color: transparent;
 }
 
-.container-menu a:first-child img { width: 200px; height: 40px; outline: 0; margin-left: -600px; }
+.container-menu a:first-child img { width: 200px; height: 80px; outline: 0; margin-left: -600px; }
 
 .container-menu a:first-child { background-color: transparent }
 
