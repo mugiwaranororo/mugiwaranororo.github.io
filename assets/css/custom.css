@@ -1,17 +1,35 @@
 .img-logo {
     width: 10%;
 }
+.brand img {
+    width: 50%;
+    margin-top: -20px;
+    margin-bottom: -38px;
+}
+nav.theme-dark,
+nav.theme-dark ul.links-wrapper.active { background-color: var(--trans-000) }
+nav.theme-dark,
+nav.theme-dark ul.links-wrapper.active { background-color: var(--trans-000) }
+nav.theme-dark,
+nav.theme-dark ul.links-wrapper.active { background-color: var(--trans-000) }
+nav.theme-dark,
+nav.theme-dark ul.links-wrapper.active { background-color: var(--trans-000) }
+nav.theme-dark,
+nav.theme-dark ul.links-wrapper.active { background-color: var(--trans-000) }
+nav.theme-dark,
+nav.theme-dark ul.links-wrapper.active { background-color: var(--trans-000) }
 
-nav.theme-dark,
-nav.theme-dark ul.links-wrapper.active { background-color: var(--trans-000) }
-nav.theme-dark,
-nav.theme-dark ul.links-wrapper.active { background-color: var(--trans-000) }
-nav.theme-dark,
-nav.theme-dark ul.links-wrapper.active { background-color: var(--trans-000) }
-nav.theme-dark,
-nav.theme-dark ul.links-wrapper.active { background-color: var(--trans-000) }
-nav.theme-dark,
-nav.theme-dark ul.links-wrapper.active { background-color: var(--trans-000) }
-nav.theme-dark,
-nav.theme-dark ul.links-wrapper.active { background-color: var(--trans-000) }
+nav.theme-dark.menu-sticky.menu-on-scroll,
+nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper.active { background-color: var(--amber-400) }
+
+nav.theme-dark.menu-sticky.menu-on-scroll ul.links-wrapper li a:link:not(.btn),
+nav.theme-daek.menu-sticky.menu-on-scroll ul.links-wrapper li a:visited:not(.btn),
+nav.theme-daek.menu-sticky.menu-on-scroll ul.links-wrapper li a:focus:not(.btn),
+nav.theme-daek.menu-sticky.menu-on-scroll ul.links-wrapper li a:hover:not(.btn),
+nav.theme-daek.menu-sticky.menu-on-scroll ul.links-wrapper li a:active:not(.btn) {
+    color: var(--amber-900) !important;
+}
+
+section.theme-light .col-1 h2,
+section.theme-light .col-3 h3 { color: var(--amber-800) }
 
